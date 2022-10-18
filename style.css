@@ -11,6 +11,10 @@ html {
   overflow-x: hidden;
 }
 
+i {
+  font-size: 5em;
+}
+
 .navigation {
   position: sticky;
   height: 80px;
@@ -101,6 +105,10 @@ html {
 }
 
 @media screen and (max-width: 960px) {
+  i {
+    font-size: 2em;
+  }
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -443,6 +451,10 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+  i {
+    font-size: 1.5em;
+  }
+
   .main-img-card {
     width: 250px;
     height: 250px;
@@ -546,6 +558,7 @@ html {
 }
 
 .services-card button {
+  font-weight: 600;
   color: #ffffff;
   padding: 14px 24px;
   border: none;
@@ -651,8 +664,8 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 1000px;
+  width: 100vw;
+  /* max-width: 1000px; */
 }
 
 .social-icon-wrapper {
